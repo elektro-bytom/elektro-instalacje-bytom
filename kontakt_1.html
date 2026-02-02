@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kontakt – Elektro-Instalacje Bytom sp. z o.o.</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>.container{max-width:900px}</style>
+</head>
+<body class="font-sans text-gray-800 bg-gray-50">
+<header class="bg-blue-800 text-white text-center py-6">
+  <h1 class="text-3xl font-bold">Kontakt</h1>
+</header>
+
+<nav class="bg-blue-700 text-white text-center py-3 space-x-4 text-sm">
+  <a href="index.html" class="hover:underline">Strona główna</a>
+  <a href="oferta.html" class="hover:underline">Oferta</a>
+  <a href="realizacje.html" class="hover:underline">Realizacje</a>
+</nav>
+
+<main class="py-10">
+  <div class="container mx-auto px-4 grid md:grid-cols-2 gap-10">
+    <!-- LEWA KOLUMNA – DANE KONTAKTOWE -->
+    <div>
+      <h2 class="text-xl font-semibold text-blue-800 mb-3">Dane kontaktowe</h2>
+      <p class="mb-1"><strong>Firma:</strong> Elektro-Instalacje Bytom sp. z o.o.</p>
+      <p class="mb-1"><strong>Adres:</strong> ul. Pszczyńska lok. 2, 41-902 Bytom</p>
+      <p class="mb-1"><strong>Telefon:</strong> <a href="tel:+48881691710" class="text-blue-700">+48 881 691 710</a></p>
+      <p class="mb-1"><strong>Kontakt – Aleksandra Pałka:</strong> <a href="tel:+48793657538" class="text-blue-700">+48 793 657 538</a></p>
+      <p class="mb-1"><strong>E-mail:</strong> <a href="mailto:elektroinstalacjebytom@gmail.com" class="text-blue-700">elektroinstalacjebytom@gmail.com</a></p>
+      <p class="mb-1"><strong>NIP:</strong> 6263060586</p>
+      <p class="text-xs text-gray-600 mt-3">
+        Przygotowujemy wyceny na podstawie przesłanych rzutów, zdjęć lub opisu inwestycji.
+      </p>
+
+      <!-- WIZYTÓWKA ALEKSANDRY -->
+      <div class="bg-white p-4 rounded-2xl shadow mt-6 flex items-center gap-4">
+        <img src="aleksandra-palka.jpg"
+             alt="Osoba do kontaktu – Aleksandra Pałka"
+             class="w-28 h-28 object-cover rounded-full border border-gray-200" />
+        <div>
+          <p class="text-sm font-semibold text-blue-800">Aleksandra Pałka</p>
+          <p class="text-xs text-gray-600 mb-1">Koordynator kontaktu z klientem</p>
+          <p class="text-xs"><strong>Telefon:</strong> <a href="tel:+48793657538" class="text-blue-700">+48 793 657 538</a></p>
+          <p class="text-xs"><strong>E-mail:</strong> <a href="mailto:elektroinstalacjebytom@gmail.com" class="text-blue-700">elektroinstalacjebytom@gmail.com</a></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- PRAWA KOLUMNA – FORMULARZ -->
+    <div class="bg-white p-6 rounded-2xl shadow">
+      <h2 class="text-lg font-semibold text-blue-800 mb-3">Formularz kontaktowy</h2>
+      <p class="text-xs text-gray-600 mb-3">
+        Formularz demonstracyjny – w wersji produkcyjnej może zostać podłączony do skrzynki e-mail.
+      </p>
+      <form>
+        <input type="text" placeholder="Imię i nazwisko" class="w-full border p-2 rounded mb-3 text-sm" required />
+        <input type="email" placeholder="Adres e-mail" class="w-full border p-2 rounded mb-3 text-sm" required />
+        <textarea placeholder="Treść wiadomości" class="w-full border p-2 rounded mb-3 text-sm" rows="4" required></textarea>
+        <button type="submit" class="bg-blue-700 text-white px-4 py-2 rounded text-sm hover:bg-blue-800">
+          Wyślij wiadomość
+        </button>
+      </form>
+    </div>
+  </div>
+</main>
+
+<footer class="bg-blue-800 text-white py-4 text-center text-xs">
+  © 2025 Elektro-Instalacje Bytom sp. z o.o.
+</footer>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Opinie klientów – Elektro-Instalacje Bytom sp. z o.o.</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>.container{max-width:900px}</style>
+</head>
+<body class="font-sans text-gray-800 bg-gray-50">
+<header class="bg-blue-800 text-white text-center py-6">
+  <h1 class="text-3xl font-bold">Opinie klientów</h1>
+</header>
+
+<nav class="bg-blue-700 text-white text-center py-3 space-x-4 text-sm">
+  <a href="index.html" class="hover:underline">Strona główna</a>
+  <a href="oferta.html" class="hover:underline">Oferta</a>
+  <a href="kontakt.html" class="hover:underline">Kontakt</a>
+</nav>
+
+<main class="py-10">
+  <div class="container mx-auto px-4">
+    <div class="grid md:grid-cols-3 gap-6 mb-10">
+      <div class="bg-white p-6 rounded-2xl shadow">
+        <p class="italic text-gray-700 text-sm">„Profesjonalnie, sprawnie i według ustaleń. Polecam współpracę.”</p>
+        <p class="font-semibold mt-3 text-blue-700 text-sm">Marek, Bytom</p>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow">
+        <p class="italic text-gray-700 text-sm">„Duża wiedza techniczna i cierpliwe tłumaczenie wszystkich rozwiązań.”</p>
+        <p class="font-semibold mt-3 text-blue-700 text-sm">Kamil, Chorzów</p>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow">
+        <p class="italic text-gray-700 text-sm">„Instalacja klimatyzacji wykonana bardzo estetycznie, mieszkanie pozostało czyste.”</p>
+        <p class="font-semibold mt-3 text-blue-700 text-sm">Anna, Katowice</p>
+      </div>
+    </div>
+
+    <div class="bg-white p-6 rounded-2xl shadow">
+      <h2 class="text-xl font-semibold text-blue-800 mb-3">Dodaj swoją opinię</h2>
+      <p class="text-xs text-gray-600 mb-3">
+        Formularz ma charakter demonstracyjny (nie wysyła danych). Docelowo może zostać podłączony do systemu pocztowego lub CRM.
+      </p>
+      <form>
+        <input type="text" placeholder="Imię" class="w-full border p-2 rounded mb-3 text-sm" required />
+        <textarea placeholder="Twoja opinia" class="w-full border p-2 rounded mb-3 text-sm" rows="4" required></textarea>
+        <button type="submit" class="bg-blue-700 text-white px-4 py-2 rounded text-sm hover:bg-blue-800">
+          Wyślij opinię
+        </button>
+      </form>
+    </div>
+  </div>
+</main>
+
+<footer class="bg-blue-800 text-white py-4 text-center text-xs">
+  © 2025 Elektro-Instalacje Bytom sp. z o.o.
+</footer>
+</body>
+</html>
